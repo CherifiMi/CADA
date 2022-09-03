@@ -1,4 +1,4 @@
-package com.example.cana.ui.theme
+package com.example.cana.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes
