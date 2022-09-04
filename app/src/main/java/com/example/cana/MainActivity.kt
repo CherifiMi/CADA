@@ -14,7 +14,9 @@ import com.example.cana.feature_note.ui.add_edit_note.AddEditNoteScreen
 import com.example.cana.feature_note.ui.notes.NotesScreen
 import com.example.cana.feature_note.ui.util.Screens
 import com.example.cana.theme.CANA
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

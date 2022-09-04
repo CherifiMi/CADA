@@ -6,9 +6,14 @@ import com.example.cana.feature_note.data.NoteRepositoryImp
 import com.example.cana.feature_note.data.local.NoteDatabase
 import com.example.cana.feature_note.domain.repository.NoteRepository
 import com.example.cana.feature_note.domain.use_case.*
+import dagger.Module
 import dagger.Provides
+import dagger.hilt.InstallIn
+import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
+@Module
+@InstallIn(SingletonComponent::class)
 object AppModule {
 
     @Provides
