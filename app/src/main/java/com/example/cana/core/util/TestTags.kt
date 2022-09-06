@@ -1,6 +1,7 @@
 package com.example.cana.core.util
 
 object TestTags {
+    const val SAVE = "Save"
     const val SORT = "Sort"
     const val ADD = "Add"
     const val ORDER_SECTION = "ORDER_SECTION"
