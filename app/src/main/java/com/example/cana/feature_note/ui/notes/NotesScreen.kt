@@ -40,7 +40,7 @@ fun NotesScreen(
         floatingActionButton = {
             FloatingActionButton(
                 onClick = {
-
+                          navController.navigate(Screens.AddEditNote.name)
                 },
                 backgroundColor = MaterialTheme.colors.primary
             ) {
